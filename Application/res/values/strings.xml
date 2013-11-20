@@ -3,6 +3,18 @@
 
     <string name="app_name">Mon Livre De Recettes</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Bienvenue</string>
+
+    <string-array name="ItemsMenu">
+        <item>Mes recettes</item>
+        <item>Rechercher une recette</item>
+        <item>Ma liste de courses</item>
+    </string-array>
+
+    <string name="myRecettes">Mes recettes</string>
+    <string name="lookRecettes">Chercher une recette</string>
+    <string name="toBuy">Ma liste de courses</string>
+    <string name="addRecettes">Ajouter une recette</string>
+    <string name="title_activity_my_recettes">MyRecettesActivity</string>
 
 </resources>
