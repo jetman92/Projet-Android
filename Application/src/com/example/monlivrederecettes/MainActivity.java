@@ -21,7 +21,9 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	/** Called when the user clicks the Send button */
+	/** Called when the user clicks the Send button
+	 * dzdzad
+	 * dzda */
 	//Lancement de l'acitivity via le boutton 1
 	public void mesRecettes(View view) {
 	    // Do something in response to button
