@@ -29,5 +29,21 @@ public class MainActivity extends Activity {
 		Intent intent  = new Intent(this, MyRecettesActivity.class);
 		startActivity(intent);
 	}
+	
+	
+	public void rechercheRecettes (View view) {
+		Intent intent = new Intent(this, RechercheRecettes.class);
+		startActivity(intent);
+	}
+	
+	public void ajouterRecettes (View view) {
+		Intent intent = new Intent(this, AjouterRecettes.class);
+		startActivity(intent);
+	}
+	
+	public void listeDeCourse (View view) {
+		Intent intent = new Intent(this, ListeDeCourse.class);
+		startActivity(intent);
+	}
 
 }

@@ -10,5 +10,8 @@
     <string name="toBuy">Ma liste de course</string>
     <string name="searchName">Champ vide</string>
     <string name="title_activity_my_recettes">MyRecettesActivity</string>
+    <string name="title_activity_recherche_recettes">RechercheRecettes</string>
+    <string name="title_activity_ajouter_recettes"></string>
+    <string name="title_activity_liste_de_course">ListeDeCourse</string>
 
 </resources>

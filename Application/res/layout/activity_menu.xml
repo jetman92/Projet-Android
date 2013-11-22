@@ -14,7 +14,15 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world" /><Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:onClick="mesRecettes"
+        android:text="@string/myRecettes" />
 
     <Button
         android:id="@+id/button2"
@@ -23,6 +31,7 @@
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
+        android:onClick="rechercheRecettes"
         android:text="@string/lookRecettes" />
 
     <Button
@@ -32,6 +41,7 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
+        android:onClick="ajouterRecettes"
         android:text="@string/addRecettes" />
 
     <Button
@@ -41,16 +51,9 @@
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
+        android:onClick="listeDeCourse"
         android:text="@string/toBuy" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"
-        android:onClick="mesRecettes"
-        android:text="@string/myRecettes" />
+    
 
 </RelativeLayout>
